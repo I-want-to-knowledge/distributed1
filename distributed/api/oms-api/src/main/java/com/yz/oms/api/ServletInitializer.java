@@ -1,4 +1,4 @@
-package com.yz.client.api;
+package com.yz.oms.api;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
     @Override
     protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(ClientApiApplication.class);
+        return application.sources(OmsApiApplication.class);
     }
 
 }
