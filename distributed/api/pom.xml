@@ -11,5 +11,8 @@
 
     <artifactId>api</artifactId>
 
-
+    <modules>
+        <module>client-api</module>
+        <module>oms-api</module>
+    </modules>
 </project>
