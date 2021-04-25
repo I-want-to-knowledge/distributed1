@@ -16,6 +16,4 @@
         <module>order-repository</module>
         <module>order-service</module>
     </modules>
-
-
 </project>
