@@ -1,7 +1,10 @@
 # 应用名称
-spring.application.name=oms-api
+spring:
+  application:
+    name: oms-api
 
 # 应用服务 WEB 访问端口
-server.port=8080
+server:
+  port: 8102
 
 
