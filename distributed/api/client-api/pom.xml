@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>client-api</artifactId>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <name>client-api</name>
     <description>client api</description>
 
