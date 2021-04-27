@@ -16,6 +16,10 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
         <dependency>
@@ -31,23 +35,17 @@
         </dependency>
 
         <!--内部依赖-->
-        <dependency>
-            <groupId>com.yz</groupId>
-            <artifactId>common.web</artifactId>
-            <version>${yz.version}</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.yz</groupId>-->
+<!--            <artifactId>common.web</artifactId>-->
+<!--            <version>${yz.version}</version>-->
+<!--        </dependency>-->
     </dependencies>
 
-    <!--cloud版本管理-->
+
     <dependencyManagement>
         <dependencies>
-            <dependency>
-                <groupId>org.springframework.cloud</groupId>
-                <artifactId>spring-cloud-dependencies</artifactId>
-                <version>${spring-cloud.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
