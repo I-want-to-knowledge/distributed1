@@ -24,7 +24,7 @@ public class WeakReferenceTest {
         // 弱引用是否有变化
         System.out.println("GC前弱引用：" + reference.get());
 
-        // 垃圾回收
+        // 垃圾回收，当某个对象没有强引用，只有弱引用时，GC会回收掉
         System.gc();
 
         // 回收后是否有变化
